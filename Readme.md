@@ -255,9 +255,9 @@ Created with ❤️ by [Manish Sharma](https://github.com/manis-sharma/) for lov
 
 ### 📊 Stats
 
-![GitHub stars](https://img.shields.io/github/stars/manis-sharma/valentine-day?style=social),
+![GitHub stars](https://img.shields.io/github/stars/manis-sharma/valentine-day?style=social)
 
-![GitHub forks](https://img.shields.io/github/forks/manis-sharma/valentine-day?style=social),
+![GitHub forks](https://img.shields.io/github/forks/manis-sharma/valentine-day?style=social)
 
 ![GitHub watchers](https://img.shields.io/github/watchers/manis-sharma/valentine-day?style=social)
 
