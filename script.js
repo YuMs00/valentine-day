@@ -11,11 +11,7 @@
             createFloatingHearts();
         }
 
-        function toggleEnvelope() {
-            const envelope = document.getElementById('envelope');
-            envelope.classList.toggle('open');
-            createFloatingHearts();
-        }
+       
 
         function createFloatingHearts() {
             const container = document.getElementById('heartsContainer');

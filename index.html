@@ -79,46 +79,38 @@
         <!-- Page 1: Landing -->
         <div class="page active" id="page1">
             <div class="emoji-header">💚</div>
-            <h1>Hey Dear!</h1>
+            <h1>Coucou !</h1>
             <p class="message">
-                I made something special just for you<br>
-                because <span class="highlight">you mean the world to me.</span>
-            </p>
+                J'ai un cadeau pour toi !
             <div class="btn-container">
-                <button class="btn" onclick="goToPage(2)">Open Your Gift 🎁</button>
+                <button class="btn" onclick="goToPage(2)">Clique pour avoir ton cadeau 🎁</button>
             </div>
         </div>
 
         <!-- Page 2: Choose Envelope -->
         <div class="page" id="page2">
-            <h1>Choose an Envelope 💌</h1>
-            <p class="message">Explore the little things I love about us</p>
+            <h1>Choisi une enveloppe 💌</h1>
             
             <div class="envelope-grid">
                 <div class="envelope-card" onclick="goToPage(3)">
-                    <div class="envelope-icon">📝</div>
-                    <div class="envelope-title">Our Memories</div>
+                    <div class="envelope-icon">📸</div>
                 </div>
                 
                 <div class="envelope-card" onclick="goToPage(4)">
-                    <div class="envelope-icon">💝</div>
-                    <div class="envelope-title">My Letter</div>
+                    <div class="envelope-icon">❤️</div>
                 </div>
                 
                 <div class="envelope-card" onclick="goToPage(5)">
-                    <div class="envelope-icon">💕</div>
-                    <div class="envelope-title">Why I Love You</div>
+                    <div class="envelope-icon">🔞</div>
                 </div>
             </div>
             
-            <button class="back-btn" onclick="goToPage(1)">← Back</button>
+            <button class="back-btn" onclick="goToPage(1)">← Retour</button>
         </div>
 
         <!-- Page 3: Our Memories -->
         <div class="page" id="page3">
-            <h1>Our Best Moments 📸</h1>
-            <p class="message">The memories that made us, us</p>
-            
+            <h1>Un beau souvenir</h1>
             <!-- 
                 INSTRUCTIONS: Replace the src="..." values below with your actual image URLs
                 You can upload your photos to any image hosting service (Imgur, Google Drive, etc.)
@@ -129,55 +121,56 @@
                 <div class="polaroid">
                     <div class="polaroid-image-container">
                         <!-- Replace the src below with your first photo URL -->
-                        <img class="polaroid-image" src="image (1).jpeg" alt="Memory 1">
+                        <img class="polaroid-image" src="/IMG_2082.jpeg" alt="Memory 1">
                     </div>
-                    <div class="polaroid-caption">First Memory ✨</div>
-                </div>
-
-                <div class="polaroid">
-                    <div class="polaroid-image-container">
-                        <!-- Replace the src below with your second photo URL -->
-                        <img class="polaroid-image" src="image (2).jpeg" alt="Memory 2">
-                    </div>
-                    <div class="polaroid-caption">Second Memory 💕</div>
-                </div>
-
-                <div class="polaroid">
-                    <div class="polaroid-image-container">
-                        <!-- Replace the src below with your third photo URL -->
-                        <img class="polaroid-image" src="image (3).jpeg" alt="Memory 3">
-                    </div>
-                    <div class="polaroid-caption">Third Memory 🌟</div>
-                </div>
-
-                <div class="polaroid">
-                    <div class="polaroid-image-container">
-                        <!-- Replace the src below with your fourth photo URL -->
-                        <img class="polaroid-image" src="image (4).jpg" alt="Memory 4">
-                    </div>
-                    <div class="polaroid-caption">Fourth Memory 💖</div>
+                    <div class="polaroid-caption">la plus belle photo de ma galerie (mais la seule 😢 ...)</div>
                 </div>
             </div>
             
-            <button class="back-btn" onclick="goToPage(2)">← Back</button>
+            <button class="back-btn" onclick="goToPage(2)">← Retour</button>
         </div>
 
         <!-- Page 4: My Letter -->
         <div class="page" id="page4">
-            <h1>My Letter to You 💝</h1>
-            <p class="tap-hint">✨ Tap the envelope to open ✨</p>
-            
+            <h1>Pour toi 💝</h1>   
             <div class="envelope-container">
                 <div class="envelope" id="envelope" onclick="toggleEnvelope()">
                     <div class="envelope-wrapper">
                         <div class="envelope-back"></div>
                         <div class="letter">
                             <div class="letter-content">
-                                <p>Dear Manish,</p>
-                                <p>Every moment with you feels like a dream come true. You have this incredible way of making even the ordinary feel extraordinary. Your smile lights up my world, and your laughter is my favorite sound.</p>
-                                <p>I want you to know that you are loved beyond measure. You are my comfort in chaos, my joy in sadness, and my hope in uncertainty. Thank you for being you, and thank you for choosing me.</p>
-                                <p>Here's to us, to our memories, and to all the beautiful moments yet to come.</p>
-                                <div class="letter-signature">Forever yours 💚</div>
+                                <p>Chère Elisoux,</p>
+                                <p>Tes joues sont comme deux pêches parfaites,
+                                    Deux coussins de douceur où mon cœur s'arrête,
+                                    Quand tu souris, elles brillent comme des soleils,
+                                    Et moi, pauvre fou, je ne vois qu'elles au réveil.</p>
+                                <p>Tu es suffisante ? Quelle blague, quel mensonge !
+                                    Tu es humble et douce comme un rêve, un songe,
+                                    Mais si quelqu'un ose dire ça de toi,
+                                    Je serai là pour défendre ton droit, je te le dois.</p>
+                                <p>Je t'ai fait pleurer, j'ai été un idiot,
+                                    Un crétin de première classe, un vrai salaud,
+                                    Mais tes larmes m'ont appris ce que je savais déjà :
+                                    Que tu es précieuse, et que sans toi, je ne suis pas.</p>
+                                <p>Au padel, c'est vrai, tu es... comment dire ?
+                                    Une catastrophe adorable qui me fait rire,
+                                    Mais quand tu rates la balle avec tant de grâce,
+                                    Je tombe amoureux à chaque fois que tu passes.</p>
+                                <p>Tes ongles sont courbés ? Quelle originalité !
+                                    Comme des petits toboggans de féminité,
+                                    Uniques, différents, parfaits dans leur genre,
+                                    Tout comme toi, ma beauté singulière et moderne.</p>
+                                <p>J'aimais les blondes, c'est vrai je l'avoue,
+                                    Mais tes cheveux bruns ont changé tous mes goûts,
+                                    Tu as fait de moi un autre homme, c'est certain,
+                                    Un homme qui ne voit plus que toi sur son chemin.</p>
+                                <p>Alors partons ensemble vers l'Australie lointaine,
+                                    Découvrir l'inconnu, loin de nos peines,
+                                    Tenter l'aventure, vivre une nouvelle vie,
+                                    Où chaque jour sera un défi, une folie.</p>
+                                <p>Joyeuse Saint-Valentin, toi la plus belle du monde,
+                                    Tu es celle qui fait vibrer mon cœur à chaque seconde.</p>
+                                <div class="letter-signature">Celui qui a appris à aimer le brun🌹</div>
                             </div>
                         </div>
                         <div class="envelope-flap"></div>
@@ -185,65 +178,26 @@
                 </div>
             </div>
             
-            <button class="back-btn" onclick="goToPage(2)">← Back</button>
+            <button class="back-btn" onclick="goToPage(2)">← Retour</button>
         </div>
 
         <!-- Page 5: Why I Love You -->
         <div class="page" id="page5">
-            <h1>Why I Love You 💕</h1>
-            <p class="message">The pages of my heart...</p>
-            
+            <h1>🍆🥵</h1>
             <div class="book-container">
                 <div class="book">
                     <div class="book-pages">
                         <div class="reason-item">
-                            <div class="reason-number">1</div>
-                            <div class="reason-text">
-                                <div class="reason-title">Your Kindness</div>
-                                <div class="reason-description">The way you care for everyone around you shows me the beauty of your heart every single day.</div>
-                            </div>
-                        </div>
-
-                        <div class="reason-item">
-                            <div class="reason-number">2</div>
-                            <div class="reason-text">
-                                <div class="reason-title">Your Smile</div>
-                                <div class="reason-description">It has the power to brighten my darkest days and fill my world with warmth and joy.</div>
-                            </div>
-                        </div>
-
-                        <div class="reason-item">
-                            <div class="reason-number">3</div>
-                            <div class="reason-text">
-                                <div class="reason-title">Your Strength</div>
-                                <div class="reason-description">You face every challenge with courage and grace, inspiring me to be better every day.</div>
-                            </div>
-                        </div>
-
-                        <div class="reason-item">
-                            <div class="reason-number">4</div>
-                            <div class="reason-text">
-                                <div class="reason-title">Your Humor</div>
-                                <div class="reason-description">You make me laugh in ways no one else can, turning ordinary moments into cherished memories.</div>
-                            </div>
-                        </div>
-
-                        <div class="reason-item">
-                            <div class="reason-number">5</div>
-                            <div class="reason-text">
-                                <div class="reason-title">Simply Being You</div>
-                                <div class="reason-description">You don't have to try to be perfect because to me, you already are. I love you for everything you are.</div>
-                            </div>
-                        </div>
-
-                        <div class="book-footer">
-                            "In all the world, there is no heart for me like yours."
+                            <video controls playsinline width="100%" style="border-radius: 10px;">
+                                <source src="/video1.mp4" type="video/mp4">
+                            </video>
+                            
                         </div>
                     </div>
                 </div>
             </div>
             
-            <button class="back-btn" onclick="goToPage(2)">← Back</button>
+            <button class="back-btn" onclick="goToPage(2)">← Retour</button>
         </div>
 
     </div>
